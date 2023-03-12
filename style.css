@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: Roboto_Condensed;
+     src: url("assets/fonts/Roboto_Condensed/");
+   }
+  @media (max-width: 768px) {
+   .section {
+     width: 100%;
+  }
+  }
+   html {
+    scroll-behavior: smooth;
+  }
+   body{
+    font-size: 20px;
+    font-family: 'Roboto_Condensed';
+    min-height: 100ch;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .header{
+    background-image: url(./assets/img/black.jpg);
+    background-repeat: repeat;
+   }
+   .main{
+    background-image: url(./assets/img/1644953833_4-krot-info-p-krasivii-serii-fon-dlya-prezentatsii-4.jpg);
+    background-repeat: repeat;
+   }
+   span{
+    font-style: italic;
+  }
+   .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  .list{
+    list-style: none;
+  }
+  .list li{
+    margin: 0px 0px 15px 0px;
+    background: url(./assets/img/li.svg) left no-repeat;
+    padding: 0 0 0 30px;
+  }
+  .location{
+    background: url(./assets/img/molumen_phone_icon.png) left 5 no-repeat;
+  }
+  .nav-link{
+    padding: 0px 30px;
+    font-size: 26px;
+    font-style: oblique;
+    font-weight:500;
+    text-decoration: none;
+    color: aliceblue;;
+  }
+  .nav-link:hover{
+    transition: .3s;
+    text-decoration: underline;
+  }
+  .main-container {
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 50%;
+  }
+  .section-title{
+    padding: 20px auto;
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-style: italic;
+    max-width: fit-content;
+    background-color: rgb(1, 4, 15);
+  }
+  .foto{
+    border: 5px solid rgb(1, 4, 15);
+    border-radius: 50%;
+    width: 300px;
+  }
+  .footer{
+    width: 100%;
+    height: 170px;
+    background-image: url('./assets/img/footer.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .git-logo{
+    padding: 0px 0px 0px 0px;
+  }
+  .number{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0px 300px 0px 300px;
+  }
+  .container-foother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 0px 0px;
+  }

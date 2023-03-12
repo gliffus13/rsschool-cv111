@@ -40,4 +40,4 @@ return a * b
 
 
 ## English:
- A1. I try to learn English in every possible way. I use application in smartphone: Duolingo and I use google translate a lot.
+ A1. I try to learn English in every possible way. I use application in smartphone: Duolingo and I use google translate a lot.gir 
